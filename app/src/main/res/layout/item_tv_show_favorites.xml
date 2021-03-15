@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgFavoriteTvShow"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/img_tv_shows_content_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@color/purple_200" />
+
+    <TextView
+        android:id="@+id/tvFavoriteTvShowTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/tv_show_title"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tvFavoriteTvShowReleaseDate"
+        app:layout_constraintStart_toEndOf="@+id/imgFavoriteTvShow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFavoriteTvShowReleaseDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonFavoriteTvShow"
+        app:layout_constraintStart_toEndOf="@+id/imgFavoriteTvShow"
+        app:layout_constraintTop_toBottomOf="@+id/tvFavoriteTvShowTitle"
+        tools:text="@string/tv_show_release_date" />
+
+    <TextView
+        android:id="@+id/tvFavoriteTvShowRating"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/tv_show_rating"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvFavoriteTvShowReleaseDate"
+        app:layout_constraintStart_toEndOf="@+id/imgFavoriteTvShow"
+        app:layout_constraintTop_toBottomOf="@+id/tvFavoriteTvShowReleaseDate" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFavoriteTvShow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_delete"
+        android:contentDescription="@string/menu_favorites"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

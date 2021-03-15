@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Catalogue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Strings for Movie Fragment-->
+    <string name="movie_tab_name">Movies</string>
+    <string name="img_movie_content_desc">Movie\'\s Poster</string>
+    <string name="tv_movie_title">Movie Title</string>
+    <string name="tv_movie_release_date">Movie Release Date</string>
+    <string name="tv_movie_release_date_string">Release Date : %s</string>
+    <string name="tv_movie_rating">User Rating</string>
+    <string name="tv_movie_rating_string">Rating : %.1f</string>
+    <string name="tv_movie_rating_value">100%</string>
+    <string name="tv_movie_genre">Genre : %s</string>
+    <string name="tv_movie_overview">Overview</string>
+    <string name="btn_movie_browser_content_desc">Open in Browser</string>
+    <string name="tv_movie_browse_label">Open in Browser</string>
+
+    <!-- Strings for Tv Shows Fragment -->
+    <string name="show_tab_name">Tv Shows</string>
+    <string name="img_tv_shows_content_desc">Tv Show\'\s Poster</string>
+    <string name="tv_show_title">Show Title</string>
+    <string name="tv_show_release_date">Show Release Date</string>
+    <string name="tv_show_release_date_string">Release Date : %s</string>
+    <string name="tv_show_rating">User Rating</string>
+    <string name="tv_show_rating_string">Rating : %s</string>
+    <string name="tv_show_rating_value">100%</string>
+    <string name="tv_show_genre">Genre : %s</string>
+    <string name="tv_show_overview">Overview</string>
+    <string name="tv_show_overview_string">Overview Text</string>
+    <string name="tv_show_season">Season : %s</string>
+    <string name="tv_show_browse_label">Open in Browser</string>
+    <string name="tv_movie_overview_string">Overview Text</string>
+
+    <!-- Strings for Menu Option-->
+    <string name="menu_favorites">Favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
